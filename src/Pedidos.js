@@ -34,7 +34,7 @@ class Pedidos extends Component {
               <div className="list-group-item platillo platillo2"  key={index}>
                 <img role="presentation" src={value.direccion} className="ImagenPlatillo"/>
                 <div className="panel-body">
-                  <h4> {value.nombre} </h4>
+                  <h4 className="nombre"> {value.nombre} </h4>
                   <br />
                     <div className="APrecioCantidad platillo2">
                         <span>Cantidad: {value.cantidad}</span>
