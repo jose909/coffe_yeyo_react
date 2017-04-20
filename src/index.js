@@ -10,7 +10,7 @@ import { BrowserRouter, Route} from 'react-router-dom';
 
 const RouterDeMenu =(
 	<BrowserRouter>
-		<Route path="https://coffeyeyo.herokuapp.com" component= { Menu }/>
+		<Route path="/" component= { Menu }/>
 	</BrowserRouter>
 );
 
